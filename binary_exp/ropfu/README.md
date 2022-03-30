@@ -62,4 +62,7 @@ ROP chain generation
 	p += pack('<I', 0x0804a3d2) # int 0x80
 ```
 
-This payload is then added to out script with the offset prepended to get a shell on the CTF server.
+This payload is then added to out script with the offset prepended to get a shell on the CTF server
+
+## Script 
+See the full solve script here -> [solve.py](./solve.py)
